@@ -77,7 +77,7 @@ h1,.h1{
 header{margin-bottom:  70px;}
 #header .logo{
 	float: left;
-	margin: 0px 345px 40px 27px;
+	margin: 0px 335px 40px 27px;
 	display: inline-block;
 } 
 
@@ -399,7 +399,7 @@ label {
 	line-height: 55px;
 }
 .footer-wrapper{
-	display: -webkit-flex;
+/*	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
 	display: -o-flex;
@@ -411,12 +411,18 @@ label {
 	flex-direction: row;
 	justify-content: space-between;
 	-ms-align-items: center;
-	align-items: center;
+	align-items: center;*/
 	padding: 38px 0;
+}
+.about,.contacts,.geo,.social{
+	display: inline-block;
+	padding-left: 46px;
+	vertical-align: middle;
 }
 .about{
 	/*text-align: left;*/
 	/*width: 366px;*/
+	padding-left: 0;
 	color: #606366;
 	font-family: 'Lato', sans-serif;
 	font-size: 16px;
@@ -504,8 +510,8 @@ label {
 	margin-bottom: 10px;
 }
 .social a,.social2level a{
-	    padding: 0px 40px 40px 0px;
-    margin: 0 10px 0 10px;
+	padding: 0px 40px 40px 0px;
+	margin: 0 10px 0 10px;
 }
 .social2level a{
 
@@ -556,43 +562,43 @@ label {
 }
 .flickr{
 	width: 40px; height: 40px;
-    background: url('../img/css_sprite2.png') -15px -15px;
+	background: url('../img/css_sprite2.png') -15px -15px;
 }
 .flickr:hover{
-  width: 40px; height: 40px;
-    background: url('../img/css_sprite2h.png') -15px -15px;
+	width: 40px; height: 40px;
+	background: url('../img/css_sprite2h.png') -15px -15px;
 }
 .youtube{
 	width: 40px; height: 40px;
-    background: url('../img/css_sprite2.png') -85px -15px;
+	background: url('../img/css_sprite2.png') -85px -15px;
 }
 .youtube:hover{
-width: 40px; height: 40px;
-    background: url('../img/css_sprite2h.png') -85px -15px;
+	width: 40px; height: 40px;
+	background: url('../img/css_sprite2h.png') -85px -15px;
 }
 .vimeo{
 	width: 40px; height: 40px;
-    background: url('../img/css_sprite2.png') -155px -15px;
+	background: url('../img/css_sprite2.png') -155px -15px;
 }
 .vimeo:hover{
-width: 40px; height: 40px;
-    background: url('../img/css_sprite2h.png') -155px -15px;
+	width: 40px; height: 40px;
+	background: url('../img/css_sprite2h.png') -155px -15px;
 }
 .instagram{
 	width: 40px; height: 40px;
-    background: url('../img/css_sprite2.png') -225px -15px;
+	background: url('../img/css_sprite2.png') -225px -15px;
 }
 .instagram:hover{
-width: 40px; height: 40px;
-    background: url('../img/css_sprite2h.png') -225px -15px;
+	width: 40px; height: 40px;
+	background: url('../img/css_sprite2h.png') -225px -15px;
 }
 .linkedin{
-	 width: 40px; height: 40px;
-    background: url('../img/css_sprite2.png') -295px -15px;
+	width: 40px; height: 40px;
+	background: url('../img/css_sprite2.png') -295px -15px;
 }
 .linkedin:hover{
-  width: 40px; height: 40px;
-    background: url('../img/css_sprite2h.png') -295px -15px;
+	width: 40px; height: 40px;
+	background: url('../img/css_sprite2h.png') -295px -15px;
 }
 
 /*         {/footer}          */

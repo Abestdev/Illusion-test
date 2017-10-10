@@ -17,7 +17,7 @@ $(window).scroll(function() {
 	else{$('.floating-top').hide();
 	$('.navigation').removeClass('navigation-fixed');
 	$('.logo').css({
-		'margin-right': '345'+'px',
+		'margin-right': '335'+'px',
 		'margin-bottom': '40'+'px' 
 	});
 }
